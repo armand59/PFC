@@ -11,11 +11,11 @@ var choix = {"p": "Pierre", "f": "Feuille", "c": "Ciseaux"};
 
 function fingame(){
     if (joueur_score === 10){
-        alert("gagné :) ");
+        alert("gagné!");
         window.location.reload();
     }
     if (computeur_score === 10){
-        alert("Perdu :( ");
+        alert("Perdu!");
         window.location.reload();
     }
 
@@ -29,7 +29,7 @@ function computerChoix(){
 function win(user, computer){
     joueur_score++;
     userScoreSpan.innerHTML=joueur_score;
-    resultat.innerHTML = `${choix[user]} contre ${choix[computer]} : GAGNEE`;
+    resultat.innerHTML = `${choix[user]} contre ${choix[computer]} : GAGNE`;
     document.getElementById(user).classList.add('green-ring');
     setTimeout(() => {document.getElementById(user).classList.remove('green-ring')}, 500);
 

@@ -1,3 +1,6 @@
+
+
+
 #user-score
 {
     text-align: center;
@@ -9,7 +12,7 @@
 {
     width: 1000px;
     height: 600px;
-    background-color: orangered;
+
     position: absolute;
     margin-left: 200px;
 }
@@ -17,12 +20,12 @@
 #Titre
 {
     text-align: center;
-    color: white;
+    color: #6F4C2C;
 }
 
 .score-board {
     margin: 20px auto;
-    border: 3px solid #ecf0f1;
+    border: 3px solid #6F4C2C;
     width: 200px;
     border-radius: 4px;
     font-size: 46px;
@@ -52,10 +55,7 @@
     color: white;
 }
 
-.resultat
-{
-    font-size: 46px;
-}
+
 
 
 .choix{
@@ -77,16 +77,34 @@
 
 .choix:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px 0px #3498db;
+    box-shadow: 0 0 10px 0px #6F4C2C;
 }
 .green-ring{
-    border: 4px solid #2ecc71 !important;
+    border: 4px solid #6F4C2C1 !important;
 }
 
 .red-ring{
-    border: 4px solid #e74c3c !important;
+    border: 4px solid #6F4C2C !important;
 }
 
 .gray-ring{
-    border: 4px solid #ecf0f1 !important;
+    border: 4px solid #6F4C2C !important;
+}
+
+#message
+{
+    margin-left: 76px;
+}
+
+.resultat
+{
+    margin-left: 213px;
+}
+
+#message
+{
+    font-size: 60px;
+    margin-left: -80px;
+    color: black;
+
 }
